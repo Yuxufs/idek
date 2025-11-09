@@ -1,0 +1,21 @@
+{
+  "name": "poke-test-drop",
+  "version": "1.0.0",
+  "description": "Single-item test storefront + checkout simulation (test only)",
+  "main": "replit-server.js",
+  "scripts": {
+    "start": "node replit-server.js",
+    "start:dev": "nodemon replit-server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "license": "MIT"
+}
